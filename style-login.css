@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+  background-image: url("login wallpaper.jpg");
+  background-position: center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+/* Pseudo Properties*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.login {
+  /*(height: cover;)*/
+  /*width: cover;*/
+  padding:10px;
+  border: none;
+  background-color: #9c27b0;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.main {
+  margin: auto;
+  position: relative;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.logo {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  margin-top:0px;
+}
+
+.tagline {
+  color: #FFFFFF;
+  margin:0px;
+  margin-bottom: 8px;
+}
+
+/*Chat Page*/
+.chatArea {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:30%;
+  width:70%;
+  background-color: #FFFFE0;
+  font-family: "Montserrat";
+}
+.member-area {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  width: 30%;
+  font-size: 32px;
+  background-color: #00bfa5;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+}
+.logoutButton {
+  float: right;
+}
+
+.membersList {
+  padding-top: 5%;
+  background-color: #FFFFFF;
+}
+
+.member {
+  padding: 10px;
+  border-bottom: solid 1px #000000;
+}
+.member:hover {
+  background:#FFFFFF;
+  color: darkblue;
+}
+.currentContact {
+ height: 10%;
+ background:#00796b;
+ height: 10%;
+ font-size: 32px;
+ padding:10px;
+ color: #FFFFFF;
+ font-family: "Montserrat";
+ background:#00796b;
+ text-align: center;
+}
+
+.user-info {
+  padding: 10px;
+  height: 10%;
+  font-size: 32px;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  background:#00796b;
+}
+
+.message {
+  padding:16px;
+  font-family: "Roboto";
+  font-size: 32px;
+  margin: 8px;
+  background: #FFFFFF;
+}
